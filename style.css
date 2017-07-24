@@ -1,0 +1,72 @@
+    /*MAIN div*/
+.main{
+    padding-top: 15px;
+    text-align: center;
+    margin: 20px auto;
+    display: center;
+    width: 40%;
+    border: 2px solid #37C5D3;
+    border-radius: 20px;
+}
+
+    /*BUTTON*/
+
+button {
+    background-color: #37C5D3;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 5px; 
+}
+button:hover{
+    box-shadow: 5px 1px 5px lightgray;
+}
+
+    /*INPUT*/
+input{
+    color: #37C5D3; 
+    font-size: 18px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px 5px 5px 30px;
+    background-repeat: no-repeat;
+    border: 1px solid #bdbdbd;
+    background-position: 8px 9px;
+    margin-bottom: 10px;
+    background-image: url(images/i.png);
+    background-size: 25px;
+    background-position-y: center;
+    background-color: #EDFDF6;
+}
+input:hover{
+    border-color: #37C5D3;
+    box-shadow: 5px 1px 5px lightgray;
+}
+input:focus{
+    border-color: #37C5D3;
+    box-shadow: 5px 1px 5px lightgray;
+}
+
+            /*HEADINGS (h1, h2)*/
+h2{
+    font-family: "Script MT Bold";
+    color: #F7A450;
+}
+
+    /*LIST*/
+ol{
+    text-align: left;
+    list-style: none;
+}
+li{
+    padding-left: 30px;
+    font-size: 30px;
+    color: #07709B;
+}
+
+img{
+    max-width: 100%;
+    min-width: 20%;
+}
